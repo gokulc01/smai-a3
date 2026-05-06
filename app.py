@@ -92,7 +92,7 @@ def load_model():
     """Load the trained MobileNetV2 model"""
     try:
         # Update the filename to your most recent fine-tuned model
-        model = tf.keras.models.load_model("indian_food_classifier_finetuned.keras")
+        model = tf.keras.models.load_model("indian_food_classifier.h5")
         return model
     except FileNotFoundError:
         st.error(
