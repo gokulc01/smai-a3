@@ -2,6 +2,9 @@
 
 A small project that trains a MobileNetV2-based image classifier to recognize Indian dishes and provides a Streamlit app for inference.
 
+## Data set collected from google images
+https://drive.google.com/file/d/16fJVBFpF-SceLCmkWeCD_ni71RLpq7Dl/view?usp=sharing
+
 ## Contents
 
 - `a3-smai.ipynb` — training notebook (builds and saves `indian_food_classifier.h5`)
